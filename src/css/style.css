@@ -286,7 +286,6 @@ body {
     width: 12px;
     border-radius: 50%;
     cursor: pointer;
-    transition: box-shadow .2s;
 
     margin-top: -2px;
 
@@ -301,7 +300,6 @@ body {
     width: 12px;
     border-radius: 50%;
     cursor: pointer;
-    transition: box-shadow .2s;
 
     margin-top: -2px;
 
@@ -316,7 +314,6 @@ body {
     width: 12px;
     border-radius: 50%;
     cursor: pointer;
-    transition: box-shadow .2s;
 
     margin-top: -2px;
 
@@ -328,7 +325,6 @@ body {
     height: 3px;
     border-radius: 2px;
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
-    transition: all .1s;
     cursor: pointer;
 }
 
@@ -337,7 +333,6 @@ body {
     height: 3px;
     border-radius: 2px;
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
-    transition: all .1s;
     cursor: pointer;
 }
 
@@ -346,7 +341,6 @@ body {
     height: 3px;
     border-radius: 2px;
     background: linear-gradient(#ffffffac,#ffffffac) 0/var(--sx) 100% no-repeat, #ffffff44;
-    transition: all .1s;
     cursor: pointer;
 }
 
