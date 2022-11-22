@@ -2,4 +2,4 @@
 
 Normal music player made by haru.
 
-![music_player](https://user-images.githubusercontent.com/118257201/203014361-8501d46a-e714-4b64-9899-43eb4667587a.png)
+![music_player](https://user-images.githubusercontent.com/118257201/203233299-732c23fe-f7bd-47b5-ba95-f897ed6285aa.png)
