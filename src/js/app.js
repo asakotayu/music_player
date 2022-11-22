@@ -1,15 +1,27 @@
 const list_music = [
     {
+        'name': "On My Way",
+        'author': 'Alan Walker',
+        'src': './src/music/on_my_way.mp3',
+        'img': '../img/music/on_my_way.jpg'
+    },
+    {
+        'name': "Hiding In The Blue",
+        'author': "TheFatRat",
+        'src': './src/music/hiding_in_the_blue.mp3',
+        'img': '../img/music/hiding_in_the_blue.jpg'
+    },
+    {
+        'name': "Unity",
+        'author': "TheFatRat",
+        'src': './src/music/unity.mp3',
+        'img': '../img/music/unity.jpg'
+    },
+    {
         'name': 'Tabun',
         'author': 'YOASOBI',
         'src': './src/music/tabun.mp3',
         'img': '../img/music/tabun.jpg'
-    },
-    {
-        'name': "あの夢をなぞって",
-        'author': 'YOASOBI',
-        'src': './src/music/あの夢をなぞって.mp3',
-        'img': '../img/music/tr_yoasobi.jpg'
     },
     {
         'name': "Rally Go Round",
@@ -18,10 +30,22 @@ const list_music = [
         'img': '../img/music/nisekoi_.webp'
     },
     {
-        'name': "On My Way",
-        'author': 'Alan Walker, Sabrina Carpenter & Farruko',
-        'src': './src/music/on_my_way.mp3',
-        'img': '../img/music/on_my_way.jpg'
+        'name': "Alone",
+        'author': 'Alan Walker',
+        'src': './src/music/alone.mp3',
+        'img': '../img/music/alone.jpg'
+    },
+    {
+        'name': "Alone",
+        'author': 'Marshmello',
+        'src': './src/music/alone_m.mp3',
+        'img': '../img/music/alone_m.jpg'
+    },
+    {
+        'name': "Rise Up",
+        'author': "TheFatRat",
+        'src': './src/music/rise_up.mp3',
+        'img': '../img/music/rise_up.jpg'
     },
 ];
 
@@ -183,7 +207,11 @@ var list_html = ``;
 for (var i = 1; i <= list_music.length; i++) {
     list_html += `
     <div class="music_box" music="${i - 1}">
-        ${list_music[i - 1]['name']}
+        <div class="img" style="--img:url('${list_music[i - 1]['img']}');"></div>
+        <div>
+            <div class="name">${list_music[i - 1]['name']}</div>
+            <div class="author">by <strong>${list_music[i - 1]['author']}</strong></div>
+        </div>
     </div>
     `;
 
