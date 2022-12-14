@@ -1,9 +1,33 @@
 const list_music = [
     {
+        'name': "Everything Black",
+        'author': "Unlike Pluto, Mike Taylor",
+        'src': './src/music/everything_black.mp3',
+        'img': '../img/music/everything_black.jpg'
+    },
+    {
+        'name': "Tera",
+        'author': "Xomu",
+        'src': './src/music/tera.mp3',
+        'img': '../img/music/tera.jpg'
+    },
+    {
+        'name': "Lanterns",
+        'author': "Xomu",
+        'src': './src/music/lanterns.mp3',
+        'img': '../img/music/lanterns.jpg'
+    },
+    {
         'name': "On My Way",
         'author': 'Alan Walker',
         'src': './src/music/on_my_way.mp3',
         'img': '../img/music/on_my_way.jpg'
+    },
+    {
+        'name': "Last Dance",
+        'author': "Xomu",
+        'src': './src/music/last_dance.mp3',
+        'img': '../img/music/last_dance.jpg'
     },
     {
         'name': "Hiding In The Blue",
@@ -24,12 +48,6 @@ const list_music = [
         'img': '../img/music/tabun.jpg'
     },
     {
-        'name': "Rally Go Round",
-        'author': 'LiSA',
-        'src': './src/music/rally_go_round.mp3',
-        'img': '../img/music/nisekoi_.webp'
-    },
-    {
         'name': "Alone",
         'author': 'Alan Walker',
         'src': './src/music/alone.mp3',
@@ -46,6 +64,12 @@ const list_music = [
         'author': "TheFatRat",
         'src': './src/music/rise_up.mp3',
         'img': '../img/music/rise_up.jpg'
+    },
+    {
+        'name': "Rise",
+        'author': "Ampyx",
+        'src': './src/music/rise.mp3',
+        'img': '../img/music/rise.jpg'
     },
 ];
 
